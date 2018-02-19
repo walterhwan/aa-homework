@@ -22,29 +22,35 @@ class Simon
     show_sequence
     sequence = require_sequence
 
-    # if sequence 
+    # unless sequence == @seq
+    #   @game_over = true
+    # end
 
     unless @game_over
-      round_success_message
+      round_success_message('message')
       @sequence_length += 1
     end
   end
 
   def show_sequence
-    puts "The sequence is: #{@seq}"
     add_random_color
+    puts "The sequence is:"
+    @seq.each do |s|
+      puts s
+    end
+    system('clear')
   end
 
   def require_sequence
     puts "Please enter sequence: "
-    gets.delete('').split(',')
+    # gets.chomp.delete(',.:;!?').split(' ')
   end
 
   def add_random_color
     @seq << COLORS.sample
   end
 
-  def round_success_message
+  def round_success_message(message)
     puts "Round Success!"
   end
 
@@ -56,3 +62,8 @@ class Simon
     initialize
   end
 end
+
+# if __FILE__ == $PROGRAM_NAME
+#   game = Simon.new
+#   game.play
+# end
