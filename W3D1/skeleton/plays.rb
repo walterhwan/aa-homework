@@ -132,9 +132,9 @@ end
 
 
 if $PROGRAM_NAME == __FILE__
-  # p Play.all
-  # p Play.find_by_title('All My Sons')
-  # p Play.find_by_playwright('Eugene O\'Neill')
+  p Play.all
+  p Play.find_by_title('All My Sons')
+  p Play.find_by_playwright('Eugene O\'Neill')
 
   # p Playwright.all
   # p Playwright.find_by_name('Arthur Miller')
