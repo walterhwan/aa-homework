@@ -11,6 +11,9 @@ if $PROGRAM_NAME == __FILE__
   p house
   p person
 
-  p house.save!
-  p person.save!
+  # p house.save!
+  # p person.save!
+
+  p House.all
+  p Person.all
 end
