@@ -8,4 +8,8 @@ class Gardener < ApplicationRecord
     class_name: 'Plant',
     foreign_key: :gardener_id,
     primary_key: :id
+
+  def better_seeds_query
+    
+  end
 end
