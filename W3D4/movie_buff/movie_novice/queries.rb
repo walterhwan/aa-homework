@@ -29,13 +29,15 @@ end
 def top_titles
   # get movie titles from movies with scores greater than or equal to 9
   # hint: use 'select' and 'where'
-  Movie.where('score between 9 and 10').select('id, title')
+  Movie.where('score between 9 and 10')
+    .select('id, title')
 end
 
 def star_wars
   #display the id, title and year of each Star Wars movie in movies.
   # hint: use 'select' and 'where'
-  Movie.where("title LIKE 'Star Wars%'").select('id, title, yr')
+  Movie.where("title LIKE 'Star Wars%'")
+    .select('id, title, yr')
 end
 
 
@@ -59,8 +61,12 @@ end
 def pulp_fiction_actors
   # practice using joins
   # display the id and name of all actors in the movie Pulp Fiction
+
   # hint: use 'select', 'joins', 'where'
-  Actor.select(:id, :name).joins(:castings).joins(:movies).where("movies.title = 'Pulp Fiction'").uniq
+  Actor.select(:id, :name)
+    .joins(:movies)
+    .where(movies: { title: 'Pulp Fiction' })
+    .distinct
 end
 
 def uma_movies
@@ -68,5 +74,8 @@ def uma_movies
   # display the id, title, and year of movies Uma Thurman has acted in
   # order them by ascending year
   # hint: use 'select', 'joins', 'where', and 'order'
-  Movie.select(:id, :title, :yr).joins(:castings).joins(:actors).where("actors.name = 'Uma Thurman'").order('yr ASC').uniq
+  Movie.select(:id, :title, :yr)
+    .joins(:actors)
+    .where(actors: { name: 'Uma Thurman' }).order('yr ASC')
+    .distinct
 end
