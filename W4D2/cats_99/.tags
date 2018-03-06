@@ -1,0 +1,13 @@
+ApplicationController	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+CreateCats	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/db/migrate/20180306043215_create_cats.rb	/^class CreateCats < ActiveRecord::Migration[5.1]$/;"	class	line:1
+change	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/db/migrate/20180306043215_create_cats.rb	/^  def change$/;"	method	line:2	class:CreateCats
+Cat	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/models/cat.rb	/^class Cat < ApplicationRecord$/;"	class	line:15
+CatsController	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^class CatsController < ApplicationController$/;"	class	line:1
+index	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def index$/;"	method	line:2	class:CatsController
+show	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def show$/;"	method	line:8	class:CatsController
+new	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def new$/;"	method	line:18	class:CatsController
+create	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def create$/;"	method	line:22	class:CatsController
+destroy	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def destroy$/;"	method	line:32	class:CatsController
+edit	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def edit$/;"	method	line:41	class:CatsController
+update	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def update$/;"	method	line:51	class:CatsController
+cat_params	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D2/cats_99/app/controllers/cats_controller.rb	/^  def cat_params$/;"	method	line:57	class:CatsController

@@ -1,0 +1,43 @@
+<h1>Edit cat in 99cats!</h1>
+
+<form action="<%= cat_url(@cat) %>" method="post">
+  <input type="hidden" name="_method" value="patch">
+
+  <label for="name">Name</label>
+  <input id="name" type="text" name="cat[name]" value="<%= @cat.name %>">
+
+  <br>
+
+  <label for="birth_date">Birth Date</label>
+  <input id="birth_date" type="date" name="cat[birth_date]" value="<%= @cat.birth_date %>">
+
+  <br>
+
+  <label for="color">Color</label>
+  <!-- black red green brown blue purple cyan gray yellow white -->
+  <select name="cat[color]">
+    <option disabled>--</option>
+    <option value="black" <%= @cat.color == 'black' ? "selected" : "" %> >Black</option>
+    <option value="red" <%= @cat.color == 'red' ? "selected" : "" %> >Red</option>
+    <option value="green" <%= @cat.color == 'green' ? "selected" : "" %> >Green</option>
+    <option value="brown" <%= @cat.color == 'brown' ? "selected" : "" %>>Brown</option>
+    <option value="white" <%= @cat.color == 'white' ? "selected" : "" %>>White</option>
+  </select>
+
+  <br>
+
+  <input type="radio" name="cat[sex]" value="M" <%= @cat.sex == "M" ? "checked" : "" %> > Male<br>
+  <input type="radio" name="cat[sex]" value="F" <%= @cat.sex == "F" ? "checked" : "" %>> Female<br>
+
+  <br>
+
+  <label for="description">Description</label>
+  <br>
+  <textarea id='description' name="cat[description]" rows="8" cols="80">
+    <%= @cat.description %>
+  </textarea>
+
+  <br>
+
+  <input type="submit" value="Update cats to 99cats">
+</form>
