@@ -1,0 +1,6 @@
+
+<h1>List of all current users</h1>
+
+<% @users.each do |user| %>
+  <%= render 'show', user: user %>
+<% end %>

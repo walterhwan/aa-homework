@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <% if !current_user.nil? %>
+      <h3>Logged in as: <%= current_user.username %></h3>
+      <form action="<%= session_url %>" method="POST">
+        <input type="hidden"
+               name="authenticity_token"
+               value="<%= form_authenticity_token %>">
+        <input type="hidden" value="delete" name="_method" />
+        <button type="submit" name="logout">Logout</button>
+      </form>
+    <% end %>
+
     <%= yield %>
   </body>
 </html>
