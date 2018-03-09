@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+body	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^body {$/;"	function	line:1
+h1	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^h1 {$/;"	function	line:6
+h2	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^h2 {$/;"	function	line:11
+ul li a, figcaption a	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^ul li a, figcaption a {$/;"	function	line:15
+header	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^header {$/;"	function	line:20
+header > img	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^header > img {$/;"	function	line:25
+.ingredients-list	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^.ingredients-list {$/;"	function	line:29
+ol	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^ol {$/;"	function	line:34
+.user_review h4	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^.user_review h4 {$/;"	function	line:38
+input[type="radio"]	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^input[type="radio"] {$/;"	function	line:43
+input[type="radio"]:checked	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^input[type="radio"]:checked {$/;"	function	line:51
+input[type="submit"]:last-child	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^input[type="submit"]:last-child {$/;"	function	line:56
+input:last-child:hover	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^input:last-child:hover {$/;"	function	line:60
+ol li:nth-of-type(2n)	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^ol li:nth-of-type(2n) {$/;"	function	line:64
+h2 + .user_review	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^h2 + .user_review {$/;"	function	line:69
+nav ul	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^nav ul {$/;"	function	line:73
+nav ul li	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^nav ul li {$/;"	function	line:78
+nav ul li a	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^nav ul li a {$/;"	function	line:81
+body	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^body {$/;"	function	line:86
+aside	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^aside {$/;"	function	line:91
+.ingredients-list li	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^.ingredients-list li {$/;"	function	line:95
+input[type="text"], select	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^input[type="text"], select {$/;"	function	line:99
+select	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^select {$/;"	function	line:104
+textarea	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^textarea {$/;"	function	line:109
+label	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^label {$/;"	function	line:113
+.hamburger-dropdown	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^.hamburger-dropdown {$/;"	function	line:117
+@media all and (max-width: 900px)	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^@media all and (max-width: 900px) {$/;"	function	line:121
+nav ul	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  nav ul {$/;"	function	line:122
+.hamburger-dropdown	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  .hamburger-dropdown {$/;"	function	line:125
+.hamburger-dropdown > li	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  .hamburger-dropdown > li {$/;"	function	line:128
+.hamburger-dropdown ul	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  .hamburger-dropdown ul {$/;"	function	line:138
+.hamburger-dropdown:hover ul	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  .hamburger-dropdown:hover ul {$/;"	function	line:150
+.hamburger-dropdown ul li:hover a	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W4D5/CSS Fluid Grid & Flex Layouts/assets/flex.css	/^  .hamburger-dropdown ul li:hover a {$/;"	function	line:155
