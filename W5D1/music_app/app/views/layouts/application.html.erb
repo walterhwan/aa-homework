@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+
+    <style media="screen">
+      ul {
+        list-style-type: none;
+      }
+      * {
+        font-family: sans-serif;
+      }
+    </style>
+
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="<%= bands_url %>">Home</a>
+        <% if logged_in? %>
+          <p>You are logged in as: <%= current_user.email %></p>
+          <%= button_to 'Log out', session_url, method: :delete %>
+        <% end %>
+
+        <% flash.each do |key, value| %>
+          <p><%= value %></p>
+        <% end %>
+      </nav>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>

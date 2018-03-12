@@ -1,0 +1,12 @@
+<% band = @band if @band %>
+
+<ul>
+  <li>
+    Band Name: <%= band.name %>
+  </li>
+  <li>
+    <%= link_to 'Edit', edit_band_url(band) %>
+  </li>
+</ul>
+
+<%= link_to 'Index', bands_url %>
