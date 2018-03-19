@@ -85,8 +85,53 @@ function isPrime(num) {
   return true;
 }
 
-[1,2,3,4,5,6,7,9].forEach( e => console.log(`${e} ${isPrime(e)}`) )
+// [1,2,3,4,5,6,7,9].forEach( e => console.log(`${e} ${isPrime(e)}`) );
 
-function sumOfNPrimes() {
+function sumOfNPrimes(numOfPrime) {
+  let sum = 0;
+  let primeCanidate = 2;
+  for (var i = 0; i < numOfPrime; ) {
+    if (isPrime(primeCanidate)) {
+      sum += primeCanidate;
+      i++;
+    }
+    primeCanidate++;
+  }
+
+  return sum;
+}
+
+function titleize(array, callBack) {
+  let newArray = array.map( el => `Mx. ${el} Jingleheimer Schmidt`);
+  callBack(newArray);
+}
+
+titleize(["Mary", "Brian", "Leo"], function(el) { console.log(el); });
+
+function Elephant(name, height = 40, tricks) {
+  if (!(this instanceof Elephant)) {
+    return new Elephant(name);
+  }
+  this.name = name;
+  this.height = height;
+  this.tricks = tricks;
+
+  this.trumpet = function() {
+    console.log(`${name} the elephant goes 'phrRRRRRRRRRRR!!!!!!!'`);
+  };
+  this.grow = function() {
+    this.height += 12;
+  };
+  this.addTrick = function(trick) {
+    this.tricks.push(trick);
+  };
 
 }
+
+let el = new Elephant('Alex', 40, ['tricking']);
+el.trumpet();
+console.log(el.height);
+el.grow();
+console.log(el.height);
+el.addTrick('second trick');
+console.log(el.tricks);
