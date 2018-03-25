@@ -1,0 +1,8 @@
+html	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^<html lang="en" dir="ltr">$/;"	function	line:2
+head	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^  <head>$/;"	function	line:3
+meta	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^    <title><\/title>$/;"	function	line:5
+script	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^    <script src=".\/bundle.js"><\/script>$/;"	function	line:6
+body	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^  <body>$/;"	function	line:8
+div	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^    <div id='main'>$/;"	function	line:9
+h	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/homework/W6D5/calculator/index.html	/^      <h3>You should replace this.<\/h3>$/;"	function	line:10
