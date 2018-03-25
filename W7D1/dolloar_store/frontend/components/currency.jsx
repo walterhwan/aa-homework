@@ -8,11 +8,10 @@ const Currency = ({name, rate}) => {
 
   return (
     <div className={color}>
-      {name}
-      &nbsp;
-      {rate}
+      {`${name} ${rate}`}
     </div>
   );
 };
+// {name}&nbsp;{rate}
 
 export default Currency;
