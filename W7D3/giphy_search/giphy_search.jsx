@@ -9,9 +9,9 @@ import { receiveSearchGiphys } from './actions/giphy_actions';
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById('root');
   const store = configureStore();
-  ReactDOM.render(<h1>Hello</h1>, root);
+  ReactDOM.render(<Root store={store} />, root);
 
-  window.store = store;
-  window.fetchSearchGiphys = fetchSearchGiphys;
-  window.receiveSearchGiphys = receiveSearchGiphys;
+  // window.store = store;
+  // window.fetchSearchGiphys = fetchSearchGiphys;
+  // window.receiveSearchGiphys = receiveSearchGiphys;
 });
